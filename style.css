@@ -1,0 +1,85 @@
+.heading
+{
+    font-family: fantasy;
+    background-color: crimson;
+    color:white;
+    width:100%;
+    padding:5px;
+   margin-top:10px;
+}
+
+#glens
+{
+    height: 150px;
+    width:300px;
+  
+}
+.j
+{
+  font-size: large;
+color:red;
+font-family:Georgia, 'Times New Roman', Times, serif;
+text-shadow: 5px 5px 5px rgb(0, 36, 128);
+;
+}  
+.k
+{
+  font-size: large;
+color:greenyellow;
+font-family:Georgia, 'Times New Roman', Times, serif;
+text-shadow: 5px 5px 5px red;
+}  
+
+.watch_div
+{
+    background-color:purple ;
+    box-shadow: 5px 5px 5px 5px red;
+    border-radius: 75px;
+    color:white;
+    font-family: cursive;
+    padding-bottom:10px;
+    
+        animation-name:example;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+    }
+
+    @keyframes example
+    {
+        from{box-shadow:1px 1px 50px yellow;}
+        to{box-shadow:1px 1px 50px greenyellow;}
+
+    }
+body{
+    background-size: cover;
+}
+
+#bat_watch
+{
+
+    border-style:double;
+    border-color: black;
+    padding: 15px; 
+}
+
+.big
+{
+    margin-top: 15%;
+    background-color:lightcoral ;
+    box-shadow: 5px 5px 5px 5px red;
+    
+    color:white;
+    font-family: cursive;
+    padding-bottom:10px;
+    
+        animation-name:example;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+    }
+
+    @keyframes example
+    {
+        from{box-shadow:1px 1px 50px blue;}
+        to{box-shadow:1px 1px 50px blueviolet;}
+
+    }
